@@ -35,7 +35,7 @@ grade_project/
 ├── grade_calculator.py   # Main program
 ├── test_cases.txt        # All test cases with results
 ├── README.md             # Project documentation
-└── screenshots/          # Program output screenshots
+└── screenshots.png          # Program output screenshot
 ```
 
 ---
