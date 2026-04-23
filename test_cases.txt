@@ -1,0 +1,49 @@
+Test Case 1 - Grade A
+Input: Name = Priya, Marks = 95
+Expected Output: Grade: A | Message: Excellent! You're at the top of your class! 🌟
+Result: PASS
+
+Test Case 2 - Grade B
+Input: Name = Rahul, Marks = 85
+Expected Output: Grade: B | Message: Very Good! Keep it up! 👍
+Result: PASS
+
+Test Case 3 - Grade C
+Input: Name = Sneha, Marks = 73
+Expected Output: Grade: C | Message: Good effort! A little more focus and you'll get there! 💪
+Result: PASS
+
+Test Case 4 - Grade D
+Input: Name = Arjun, Marks = 62
+Expected Output: Grade: D | Message: You passed! But there's room to improve. Don't give up! 📚
+Result: PASS
+
+Test Case 5 - Grade F
+Input: Name = Kiran, Marks = 45
+Expected Output: Grade: F | Message: Don't worry, failures are stepping stones. Study hard! 🔥
+Result: PASS
+
+Test Case 6 - Boundary Value (0)
+Input: Name = Test, Marks = 0
+Expected Output: Grade: F
+Result: PASS
+
+Test Case 7 - Boundary Value (100)
+Input: Name = Test, Marks = 100
+Expected Output: Grade: A
+Result: PASS
+
+Test Case 8 - Invalid Input (negative number)
+Input: Marks = -5
+Expected Output: "Marks must be between 0 and 100. Try again."
+Result: PASS
+
+Test Case 9 - Invalid Input (above 100)
+Input: Marks = 110
+Expected Output: "Marks must be between 0 and 100. Try again."
+Result: PASS
+
+Test Case 10 - Invalid Input (string)
+Input: Marks = "abc"
+Expected Output: "Invalid input. Please enter a number."
+Result: PASS
